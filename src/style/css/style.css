@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url(/src/assets/images/fondo.png);
+    background-image: url(/src/assets/images/fond0.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -14,7 +14,7 @@ body{
   }
 
 .parent_div{
-    height: 100vh;
+    height: 100;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -31,7 +31,7 @@ body{
     padding-right: 3%;
     font-size: 0.7rem;
     position: absolute;
-    top: 2480%; 
+    top: 2770%; 
     left: 77.5%;
     transform: translate(-50%, -50%);
     opacity: 0%;
@@ -41,7 +41,7 @@ body{
     padding-right: 5%;
     font-size: 0.7rem;
     position: absolute;
-    top: 2810%; 
+    top: 3110%; 
     left: 77%;
     transform: translate(-50%, -50%);
     opacity: 0%;
@@ -50,7 +50,7 @@ body{
 .bg_img{
     width: 80%;
     height: auto;
-    margin: 2% auto auto auto;
+    margin: 5% auto auto auto;
 }
 
 .video_child1{
@@ -59,7 +59,7 @@ body{
     position: absolute;
     z-index: 10;
     transform: translate(-50%, -50%);
-    top: 1940%;
+    top: 2255%;
     right: 14.8%; 
 }
 
@@ -69,7 +69,7 @@ body{
     position: absolute;
     z-index: 10;
     transform: translate(-50%, -50%);
-    top: 1690%;
+    top: 1990%;
     right: 11.3%; 
 }
 
@@ -79,9 +79,53 @@ body{
     position: absolute;
     z-index: 10;
     transform: translate(-50%, -50%);
-    top: 2045%;
+    top: 2345%;
     right: 24.4%; 
 }
 
+.date{
+    color: white;
+    padding-right: 3%;
+    font-size: 0.7rem;
+    position: absolute;
+    top: 750%;
+    left: 98.4%;
+    transform: translate(-50%, -50%);
+    opacity: 100%;
+    font-size: 70%;
+    
+}
+
+.hour{
+    color: white;
+    padding-right: 3%;
+    font-size: 0.7rem;
+    position: absolute;
+    top: 680%;
+    left: 98.4%;
+    transform: translate(-50%, -50%);
+    opacity: 100%;
+    font-size: 70%;
+    
+}
+
+
+.parent_taskbar{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.taskbar{
+    width: 100%;
+    height: auto;
+    margin: 5% auto auto auto;
+}
+
+.margin_intro{
+    margin: 2% auto auto auto;
+}
 
 
