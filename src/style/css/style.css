@@ -131,6 +131,19 @@ body{
     margin: 2% auto auto auto;
 }
 
+.linkclick{
+    background-color: transparent;
+    height: 75%;
+    width: 68%;
+    position: absolute;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 765%;
+    border: none;
+
+}
+
 .row {
     --bs-gutter-x: 0;
 }
