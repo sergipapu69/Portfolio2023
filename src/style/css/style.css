@@ -133,13 +133,13 @@ body{
 
 .linkclick{
     background-color: transparent;
-    height: 75%;
+    height: 3280%;
     width: 68%;
     position: absolute;
     z-index: 10;
     transform: translate(-50%, -50%);
     left: 50%;
-    top: 765%;
+    top: -2077%;
     border: none;
 
 }
